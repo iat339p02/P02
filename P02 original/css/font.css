@@ -1,0 +1,25 @@
+
+/*This font is from https://www.dafont.com/gedeboog.font?text=Tokyo+Snack+Shop.*/
+@font-face {
+	font-family: 'Nesans Semi Bold';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Nesans Semi Bold.ttf') format('truetype');
+}
+
+/*https://www.dafont.com/assassin.font?text=Little+Precious+Jewell*/
+@font-face {
+	font-family: 'Assassin$';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Assassin$.ttf') format('truetype'); 
+}
+
+/*This font is from https://www.dafont.com/liberation-serif.font?text=Little+Precious+Jewel*/
+@font-face {
+	font-family: 'LiberationSerif-Regular';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/LiberationSerif-Regular.ttf') format('truetype'); 
+}
+
