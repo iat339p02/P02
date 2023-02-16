@@ -60,9 +60,9 @@ p, ol, ul {
 
 /*I learned and applyed codes from IAT 339 course  materials*/
 .listing{
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding-left: 1rem;
+  margin-left: 0rem;
+  margin-right: 2rem;
+  padding-left: 0rem;
 }
 
 /*I learned and applyed codes from IAT 339 course  materials*/
@@ -76,6 +76,11 @@ img {
 /*I learned and applyed codes from IAT 339 course  materials*/
 figure {
   margin: 0;
+  transition-duration: 0.5s;
+}
+
+figure:hover{
+  opacity: 70%;
 }
 
 /*I learned and applyed codes from IAT 339 course  materials*/
@@ -157,6 +162,11 @@ textarea{
   border-radius: 3px;
   cursor: pointer;
   font-size: 17px;
+  transition-duration: 0.5s;
+}
+
+.btn:hover {
+  background-color: rgb(120, 156, 175);
 }
 /*I learned how to design checkout page in html from "https://www.w3schools.com/howto/howto_css_checkout_form.asp" */
 /* //I used code from from "https://www.w3schools.com/howto/howto_css_checkout_form.asp" */
@@ -170,12 +180,13 @@ textarea{
   border-radius: 3px;
   cursor: pointer;
   font-size: 17px;
+  transition-duration: 0.5s;
 }
 
 /*I learned how to design checkout page in html from "https://www.w3schools.com/howto/howto_css_checkout_form.asp" */
 /* //I used code from from "https://www.w3schools.com/howto/howto_css_checkout_form.asp" */
 .checkout_btn:hover {
-  background-color: rgb( 98, 143, 92);
+  background-color: rgb(120, 175, 113);
 }
 /*I learned how to design checkout page in html from "https://www.w3schools.com/howto/howto_css_checkout_form.asp" */
 /* //I used code from from "https://www.w3schools.com/howto/howto_css_checkout_form.asp" */
