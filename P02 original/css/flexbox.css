@@ -122,3 +122,11 @@
     padding: 7px 0;
     font-size: 24px;
   }
+
+
+  /* Container needed to position the button. Adjust the width as needed */
+.imgContainer {
+  position: relative;
+  width: 50%;
+}
+
