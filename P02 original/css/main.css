@@ -62,6 +62,7 @@ p, ol, ul {
 /*I learned and applyed codes from IAT 339 course  materials*/
 img {
   height: auto;
+  width: 100%;
   border-width: 0.1rem;
   border-style: solid;
   border-color: rgb(125, 125, 125); 
@@ -227,7 +228,6 @@ span.price {
   color: white;
   font-size: 16px;
   padding: 12px 24px;
-  border: none;
   cursor: pointer;
   border-radius: 5px;
   margin-bottom: 7rem;
@@ -329,4 +329,20 @@ span.price {
 
 .menu li a:hover,a:active,a:focus {
 	color:rgb(99, 129, 145);
+}
+
+footer{
+  display: span;
+  background-color: antiquewhite;
+}
+
+.main{
+  position: relative;
+  left: 8%;
+  top: -20rem;
+  padding: 2rem;
+}
+
+#insert{
+  margin-top: 2rem;
 }

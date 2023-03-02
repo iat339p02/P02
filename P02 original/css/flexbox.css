@@ -130,3 +130,6 @@
   width: 50%;
 }
 
+#product{
+  display: flex;
+}
