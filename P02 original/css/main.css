@@ -204,15 +204,14 @@ span.price {
 	padding-right: 2rem;
 }
 
-/* Making the image responsive */
+
 .imgContainer  img {
   width: 100%;
   height: auto;
 }
 
-/*I learned how to design checkout page in html from "https://www.w3schools.com/howto/howto_css_button_on_image.asp" */
+/*I learned concept of putting button inside the image from "https://www.w3schools.com/howto/howto_css_button_on_image.asp" */
 /* //I used code from from "https://www.w3schools.com/howto/howto_css_button_on_image.asp" */
-/* Style the button and place it in the middle of the container/image */
 .imgContainer  .btn {
   position: absolute;
   top: 90%;
@@ -236,7 +235,7 @@ span.price {
   background-color: rgb(142, 90, 92);
 }
 
-
+/*I learned concept of navigation bar and applyed what I learned from "https://www.w3schools.com/css/css_navbar_horizontal.asp" */
 .navbar{
 	display: flex;
 	position: fixed;
