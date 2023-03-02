@@ -241,12 +241,7 @@ span.price {
   background-color: rgb(142, 90, 92);
 }
 
-.logo{
-	position: fixed;
-	z-index: 1020;
-	max-width: 10rem;
-	margin-left: 1rem;
-}
+
 .navbar{
 	display: flex;
 	position: fixed;
@@ -302,7 +297,7 @@ span.price {
 	.menu.active{
 		display: flex;
 	}
-	.cbclogo{
+	.logo{
 		max-width: 8rem;
 	}
 
