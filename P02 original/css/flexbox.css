@@ -131,3 +131,36 @@
 #product{
   display: flex;
 }
+
+
+/* ring product page */
+
+.product-ring{
+  display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around; 
+}
+
+.detail-ring{
+  display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around; 
+}
+
+.image-ring{
+  flex: 1;
+}
+
+.text-ring{
+  flex: 1;
+}
+
+.detail-ring-1{
+  flex: 1;
+}
+
+.detail-ring-2{
+  flex: 1;
+}

@@ -12,7 +12,7 @@ body {
 
 h1 {
   font-family: "Assassin$", Verdana, sans-serif;
-  text-align: center;
+  /* text-align: center; */
 
   /*learned responsive text from https://youtu.be/glYaZ1W6xbQ.*/
   font-size: 12vw;
@@ -334,4 +334,27 @@ footer{
 
 #insert{
   margin-top: 2rem;
+}
+
+
+/* product-page-ring */
+.product-ring{
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.detail-ring{
+  padding: 3rem;
+}
+
+.image-ring{
+  padding-right: 3rem;
+}
+
+.text-ring{
+  padding: 3rem;
+}
+
+.cart{
+  margin-left: 0;
 }
