@@ -345,6 +345,7 @@ footer{
 
 .detail-ring{
   padding: 3rem;
+  background-color:rgb(99, 129, 145);
 }
 
 .image-ring{
@@ -357,4 +358,21 @@ footer{
 
 .cart{
   margin-left: 0;
+}
+
+.you-may-also-like{
+  text-align: center;
+}
+
+.also-like{
+  padding: 3rem;
+}
+
+.also-like-item{
+  padding: 2.5rem;
+  padding-top: 0;
+}
+
+figcaption{
+  text-align: center;
 }
