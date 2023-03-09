@@ -179,3 +179,38 @@
 .also-like-item{
   flex: 1;
 }
+
+/* ring product page end*/
+
+
+/* check out page */
+
+.check-out{
+  display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around; 
+}
+
+.check-out-item-container{
+  flex: 1;
+}
+
+.check-out-item{
+  display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between; 
+}
+
+.check-out-item-img{
+  flex: 1;
+}
+
+.check-out-item-text{
+  flex: 2;
+}
+
+.check-out-total{
+  flex: 1;
+}
