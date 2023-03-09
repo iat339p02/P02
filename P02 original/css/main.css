@@ -579,6 +579,7 @@ footer{
 
 .detail-ring{
   padding: 3rem;
+  background-color:rgb(99, 129, 145);
 }
 
 .image-ring{
@@ -591,4 +592,60 @@ footer{
 
 .cart{
   margin-left: 0;
+}
+
+.you-may-also-like{
+  text-align: center;
+}
+
+.also-like{
+  padding: 3rem;
+}
+
+.also-like-item{
+  padding: 2.5rem;
+  padding-top: 0;
+}
+
+figcaption{
+  text-align: center;
+}
+
+/* product-page-ring ends*/
+
+/* check out page */
+.check-out-here{
+  font-size: 2.5rem;
+  margin: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.check-out{
+  margin: 1rem;
+}
+
+.check-out-item-container{
+  padding: 1rem;
+}
+
+.check-out-item{
+  background-color: antiquewhite;
+  border-radius: 0.5rem;
+}
+
+.check-out-item-img{
+  padding: 1.5rem;
+}
+
+.col-25{
+  margin-top: 1rem;
+}
+
+.col-75{
+  margin-top: 3rem;
+}
+
+.check-out-item-text{
+  padding: 1.5rem;
 }
