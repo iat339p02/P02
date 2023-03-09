@@ -64,6 +64,10 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
 
     }
+
+    .product-ring{
+      flex-wrap: wrap;
+    }
 }
 
 /*812px 50.75rem*/
