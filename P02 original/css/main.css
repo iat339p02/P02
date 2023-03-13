@@ -12,14 +12,15 @@ body {
 
 h1 {
   font-family: "Assassin$", Verdana, sans-serif;
-  /* text-align: center; */
+  text-align: center; 
 
   /*learned responsive text from https://youtu.be/glYaZ1W6xbQ.*/
-  font-size: 12vw;
+	font-size: 12vw;
   color:rgb(99, 129, 145);
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0; 
 }
+
 
 h2 {
   font-family: "LiberationSerif-Regular", Verdana, sans-serif;
@@ -153,13 +154,15 @@ code, samp {
 
 .nav-main-item {
   display: inline-block;
+  width: 10rem;
+  height: auto;
   color: rgb(98, 143, 92);
   background-color: rgb(216, 230, 214);;
   font-size: 1.5rem;
   text-align: center;
   margin-top: 0.4rem;
   margin-right: 1rem;
-  margin-left: 1.5rem;
+  /* margin-left: 1.5rem; */
   margin-bottom: 1.5rem;
   /*learned how to make nav buttons circle from https://youtu.be/vZPynhI7EGk.*/
   border-radius: 0.3rem;
@@ -197,6 +200,7 @@ textarea{
   cursor: pointer;
   font-size: 17px;
   transition-duration: 0.5s;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -304,6 +308,8 @@ span.price {
 	align-items: center;
 	background-color:  rgb(219, 230, 215);
 	z-index: 101;
+	border-radius: 2px;
+	box-shadow: 0px 1px 10px rgb(184, 189, 182);
 }
 
 
