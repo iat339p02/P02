@@ -630,8 +630,12 @@ footer{
   padding: 3rem;
 }
 
+.also-like-container{
+	padding: 2.5rem;
+}
+
 .also-like-item{
-  padding: 2.5rem;
+  /* padding: 2.5rem; */
   padding-top: 0;
 }
 
@@ -794,4 +798,21 @@ figcaption{
 #slogan{
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+}
+
+
+/* review section */
+.review-example{
+	margin: 3rem 3rem;
+	padding: 2rem;
+	border-width: 5px;
+	border-style: double;
+	border-color: rgb(216, 230, 214);
+}
+
+
+.profile-img{
+	border-radius: 0.5rem;
+	max-width: 15%;
+	height: auto;
 }
