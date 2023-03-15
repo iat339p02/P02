@@ -354,6 +354,12 @@ span.price {
 		justify-content: space-between; 
 	}	
 
+	.remove{
+		border: none;
+		padding: 0.2rem;
+		margin-left: 0;
+	}
+
 }
 
 .menu ul{
@@ -648,13 +654,13 @@ figcaption{
 /* check out page */
 .check-out-here{
   font-size: 2.5rem;
-  margin: 2rem;
+  margin: 3rem;
   margin-top: 5rem;
   margin-bottom: 1rem;
 }
 
 .check-out{
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .check-out-item-container{
@@ -662,12 +668,15 @@ figcaption{
 }
 
 .check-out-item{
-  background-color: antiquewhite;
-  border-radius: 0.5rem;
+	border-width: 5px;
+	border-style: double;
+	border-color: rgb(216, 230, 214);
+  	border-radius: 0.5rem;
+  	margin-bottom: 1rem;
 }
 
 .check-out-item-img{
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .col-25{
@@ -680,6 +689,24 @@ figcaption{
 
 .check-out-item-text{
   padding: 1.5rem;
+}
+
+.cart{
+	box-shadow: 0px 1px 10px 0px rgba(63, 63, 63, 0.2);
+}
+
+.quantity{ 
+	margin-top: 0.5rem;
+	border-width: 5px;
+	border-radius: 0.5rem;
+	border-style: double;
+	border-color: rgb(216, 230, 214);
+}
+
+.remove{
+	border: none;
+	padding: 0.2rem;
+	margin-left: 26%;
 }
 /* check out page ends*/
 
