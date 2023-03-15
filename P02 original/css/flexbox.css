@@ -198,6 +198,10 @@
 	justify-content: space-around; 
 }
 
+.also-like-container{
+  flex: 1;
+}
+
 .image-ring{
   flex: 1;
 }
@@ -288,6 +292,7 @@
 
 }
 
+/* footer */
 .social-media{
   display: flex;
 	flex-wrap: wrap;
@@ -297,4 +302,21 @@
 
 .icon{
   flex: 1;
+}
+/* footer ends */
+
+.review-example{
+  display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between; 
+  align-items: center;
+}
+
+.profile-img-container{
+  flex-shrink:1;
+}
+
+.review-text{
+  flex-grow: 2;
 }
