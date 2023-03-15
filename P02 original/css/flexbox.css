@@ -325,3 +325,20 @@
 .review-text{
   flex-grow: 2;
 }
+
+/* payment */
+.payment{
+  display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between; 
+  align-items: center;
+}
+
+.checkout{
+  flex:1;
+}
+
+.check-out-total{
+  flex: 1;
+}
