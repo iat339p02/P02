@@ -256,3 +256,45 @@
 .check-out-total{
   flex: 1;
 }
+
+/* check out page end*/
+
+/* product listing page */
+.product-page-landing{
+  display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between; 
+}
+
+.product-page-landing-img{
+  flex: 1;
+}
+
+.product-page-landing-text{
+  flex: 1;
+  align-self: center
+}
+
+.product-list-item-container{
+  display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between; 
+}
+
+.product-list-item{
+  flex:1;
+
+}
+
+.social-media{
+  display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center; 
+}
+
+.icon{
+  flex: 1;
+}
