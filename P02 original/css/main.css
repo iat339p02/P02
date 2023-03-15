@@ -95,8 +95,6 @@ img {
 	flex-direction: column;
 	text-align: center;
 
-
-
 }
 
 .showcase-content{
@@ -116,13 +114,13 @@ img {
 
 
 
-figure {
+.item {
   margin: 0;
   transition-duration: 0.5s;
 }
 
-figure:hover{
-  opacity: 70%;
+.item:hover{
+  opacity: 80%;
 }
 
 
@@ -134,7 +132,7 @@ section {
 }
 
 
-a {
+/* a {
   color: rgb(144, 53, 56);
   transition-property: color;
   transition-duration: 0.5s;
@@ -143,7 +141,7 @@ a {
 a:active, a:hover, a:focus {
   color: rgb(153,123,119); 
   text-decoration: none;opacity: 100;
-}
+} */
 
 code, samp {
   display: block;
@@ -348,6 +346,13 @@ span.price {
 	.logo{
 		max-width: 8rem;
 	}
+
+	.product-list-item-container{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-between; 
+	}	
 
 }
 
@@ -672,6 +677,7 @@ figcaption{
 .check-out-item-text{
   padding: 1.5rem;
 }
+/* check out page ends*/
 
 
 /* for product drop down */
@@ -697,4 +703,95 @@ figcaption{
 #products{
 	margin-left: 0%;
 	margin-right: 0;
+}
+/* for product drop down ends*/
+
+
+/* product listing page */
+.product-page-landing{
+	padding-top: 2rem;
+	background-color: #beab681e;
+
+}
+
+.product-page-landing-img{
+	padding: 2rem;
+}
+
+.product-page-landing-img-item{
+	margin-left: 5vw;
+	box-shadow: 0px 1px 10px 0px rgba(63, 63, 63, 0.2);
+	max-width: 430px;
+}
+
+.product-category{
+	font-size: 5vp;
+	text-align: center;
+}
+
+.product-category{
+	padding-bottom: 2rem;
+	border-style:solid;
+	border-color: #69808f;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+.product-list{
+	padding: 1rem 2rem;
+}
+
+.product-tag{
+	margin-left: 1rem;
+}
+
+.product-list-item{
+	padding: 1rem;
+	margin: 1rem;
+	border-width: 5px;
+	border-style: double;
+	border-color: rgb(216, 230, 214);
+}
+
+.product-name{
+	color: #444;
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+  
+.product-name:active, .product-name:hover, .product-name:focus {
+	color:#69808f; 
+}
+/* product listing page ends*/
+
+/* for drop down */
+.product-dropdown-box{
+	text-decoration: none;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+.product-dropdown-box:hover, .product-dropdown-box:active{
+	background-color: rgb(216, 230, 214);
+}
+/* for drop down */
+
+/* footer */
+.icon{
+	margin: 1rem;
+	margin-top: 0;
+	margin-bottom: 2rem;
+	min-width: 20px;
+	max-width: 3%;
+}
+
+#brand{
+	margin-bottom: 0rem;
+}
+
+#slogan{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
