@@ -337,13 +337,13 @@ span.price {
 		max-width: 8rem;
 	}
 
-	.payment{
+	/* .payment{
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: row-reverse;
 		justify-content: space-between; 
 		align-items: flex-start;
-	}
+	} */
 
 }
 
@@ -876,6 +876,7 @@ figcaption{
 
 .profile-img{
 	border-radius: 0.5rem;
+	min-width: 150px;
 	max-width: 15%;
 	height: auto;
 }
@@ -957,6 +958,14 @@ figcaption{
 	text-align: center;
 	padding-bottom: 7rem;
 
+}
+
+.contact-form-container{
+	padding: 4rem;
+	padding-bottom: 2.5rem;
+	border-width: 8px;
+	border-style: double;
+	border-color: rgb(216, 230, 214);
 }
 
 .contact-form h2{
