@@ -4,41 +4,6 @@
 */
 /*Most codes are what we learned and applyed codes from IAT 339 course  materials*/
 
-/*Landing Page*/
-
-.landingimage {
-	padding-top: 35rem;
-	max-width: 100%;
-	background-image: url(file:///Users/elainelee/Documents/IAT339/P02/P02%20original/img/landing.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-header h1{
-	font-family: "Assassin$", Verdana, sans-serif;
-	font-size: 8vw;
-    color:white;
-	font-size: 9vw;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	position: relative;
-	text-align: center;
-	padding-bottom: 50px;
-	
-
-}
-
-header h2{
-	font-family: 'Lato', Verdana, sans-serif;
-	color: white;
-	position: relative;
-	font-size: 3vw;
-	padding-top: 0.3rem;
-	padding-left: 2.5rem;
-	padding-bottom: 15rem;
-}
-
-
 
 
 body {	
@@ -204,6 +169,7 @@ code, samp {
 
 .nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
 	color: rgb(99, 129, 145);
+
 	background-color: rgb(186, 205, 215);
 }
 
@@ -293,30 +259,7 @@ span.price {
   object-fit: cover;
 }
 
-/*I learned concept of putting button inside the image from "https://www.w3schools.com/howto/howto_css_button_on_image.asp" */
-/* //I used code from from "https://www.w3schools.com/howto/howto_css_button_on_image.asp" */
-.imgContainer .btn {
-  position: absolute;
-  top: 85%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: rgb(99, 129, 145);
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-bottom: 7rem;
-	margin-left: auto;
-	max-width: 30%;
-	min-width: fit-content;
-  text-align: center;
-}
 
-.imgContainer  .btn:hover {
-	background-color: rgb(119, 146, 160);
-}
 
 
 
@@ -382,6 +325,14 @@ span.price {
 		max-width: 8rem;
 	}
 
+	.payment{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row-reverse;
+		justify-content: space-between; 
+		align-items: flex-start;
+	}
+
 }
 
 .menu ul{
@@ -407,6 +358,8 @@ span.price {
 	color:rgb(99, 129, 145);
 }
 
+
+
 footer{
   display: span;
   background-color: #f3eac8;
@@ -422,10 +375,72 @@ footer{
 #insert{
   margin-top: 2rem;
 }
-/*Product Page*/
+
 .menupage h1{
 	margin-top: 7rem;
 }
+
+
+/*Landing Page*/
+
+.landingimage {
+	padding-top: 35rem;
+	max-width: 100%;
+	background-image: url(https://fashionmagazine.com/wp-content/uploads/2021/07/IndigenousDesignersAccessories-feature.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header h1{
+	font-family: "Assassin$", Verdana, sans-serif;
+	font-size: 8vw;
+    color:white;
+	font-size: 9vw;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	position: relative;
+	text-align: center;
+	padding-bottom: 50px;
+	
+
+}
+
+header h2{
+	font-family: 'Lato', Verdana, sans-serif;
+	color: white;
+	position: relative;
+	font-size: 3vw;
+	padding-top: 0.3rem;
+	padding-left: 2.5rem;
+	padding-bottom: 15rem;
+}
+.shoplisting{
+	margin-top: 5rem;
+	margin-bottom: 7rem;
+	margin-right: 4vw;
+	margin-left: 9vw;
+}
+.acc-listing{
+	padding-top: 2rem;
+	padding-right: 3rem;
+	padding-bottom: 5rem;
+}
+
+.shopbtn {
+  background-color:rgb(99, 129, 145);
+  color: white;
+  padding: 20px;
+  display:flex;
+  max-width: 60%;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: fit-content;
+  
+}
+
 
 .bestseller{
 	padding-top: 3rem;
@@ -454,6 +469,17 @@ footer{
 	flex-direction: column;
 }
 
+.bestsellerbutton .btn{
+    display: inline-block;
+    max-width: 60%;
+    text-align: center;
+    text-decoration: none;
+
+	margin-top: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: fit-content;
+}
 
 .bestseller-content h2{
 	font-size: 3vw;
@@ -471,10 +497,6 @@ footer{
 	max-width: 20rem;
 }
 
-  
-  .bestsellerbutton .btn:hover, .btn:active, .btn:focus{
-	color: #C1A57B;
-  }
 
 
 .slide{
@@ -618,37 +640,6 @@ footer{
  }
 
 
-.contents-body-menu{
-	margin-top: 5rem;
-	margin-bottom: 7rem;
-	margin-right: 4vw;
-	margin-left: 9vw;
-}
-
-.contents-body{
-	margin-top: 6rem;
-	margin-bottom: 7rem;
-	margin-right: 4vw;
-	margin-left: 9vw;
-}
-
-.product-listing{
-	padding-top: 2rem;
-	padding-right: 3rem;
-	padding-bottom: 5rem;
-}
-
-.product-listing h3{
-	text-align: center;
-}
-
-.product-listing p{
-	text-align: center;
-}
-
-.product-listing img:hover, img:focus, img:active{
-	opacity: 40%;
-}
 
 
 /* product-page-ring */
@@ -709,6 +700,29 @@ figcaption{
   margin: 2rem;
 }
 
+
+#fname, #email, #adr, #city, #province, #zip{
+	border-width: 5px;
+	border-style: double;
+	border-color: rgb(216, 230, 214);
+	border-radius: 3px;
+}
+
+#cname, #ccnum, #expmonth, #expyear, #cvv{
+	border-width: 5px;
+	border-style: double;
+	border-color: rgb(216, 230, 214);
+	border-radius: 3px;
+}
+
+#fname:focus, #email:focus, #adr:focus, #city:focus, #province:focus, #zip:focus{
+	border-color:  white;
+}
+
+#cname:focus, #ccnum:focus, #expmonth:focus, #expyear:focus, #cvv:focus{
+	border-color:  white;
+}
+
 .check-out-item-container{
   padding: 1rem;
 }
@@ -730,7 +744,7 @@ figcaption{
 }
 
 .col-75{
-  margin-top: 3rem;
+	margin-top:1rem ;
 }
 
 .check-out-item-text{
@@ -1026,3 +1040,6 @@ figcaption{
 
 }
 
+.payment{
+	margin: 5rem 2rem;
+}
