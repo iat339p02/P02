@@ -116,7 +116,7 @@ img {
 }
 
 .item:hover{
-  opacity: 80%;
+  opacity: 60%;
 }
 
 
@@ -362,6 +362,7 @@ span.price {
 
 footer{
   display: span;
+  /* background-color: #beab681e; */
   background-color: #f3eac8;
 }
 
@@ -800,9 +801,8 @@ figcaption{
 
 /* product listing page */
 .product-page-landing{
-	padding-top: 2rem;
-	background-color: #beab681e;
-
+	padding-top: 3rem;
+	/* background-color: #beab681e; */
 }
 
 .product-page-landing-img{
@@ -818,15 +818,6 @@ figcaption{
 .product-category{
 	font-size: 5vp;
 	text-align: center;
-}
-
-.product-category{
-	padding-bottom: 2rem;
-	border-style:solid;
-	border-color: #69808f;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
 }
 
 .product-list{
@@ -1042,4 +1033,8 @@ figcaption{
 
 .payment{
 	margin: 5rem 2rem;
+}
+
+.about-text{
+	text-align: center;
 }
