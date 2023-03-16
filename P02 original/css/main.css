@@ -64,18 +64,6 @@ img {
   border-color: rgb(125, 125, 125); 
 }
 
-.promotionlatte{
-	font-size: 7.5vw;
-	line-height: 7vw;
-	justify-content: center;
-	display: inline-block;
-	text-align: left;
-}
-
-.promotionlattecontainer{
-	text-align: left;
-	padding-top: 3rem;
-}
 
 .showcaseBox{
 	position: relative;
@@ -128,16 +116,6 @@ section {
 }
 
 
-/* a {
-  color: rgb(144, 53, 56);
-  transition-property: color;
-  transition-duration: 0.5s;
-}
-
-a:active, a:hover, a:focus {
-  color: rgb(153,123,119); 
-  text-decoration: none;opacity: 100;
-} */
 
 code, samp {
   display: block;
@@ -202,7 +180,6 @@ textarea{
   
 }
 
-
 .btn:hover {
   background-color: rgb(120, 156, 175);
 }
@@ -246,16 +223,7 @@ span.price {
     margin-bottom: 20px;
   }
 
-.footer-content{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	text-align: center;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	margin-top: 7rem;
-}
+  
 
 
 .imgContainer  img {
@@ -366,12 +334,6 @@ span.price {
 
 
 
-footer{
-  display: span;
-  /* background-color: #beab681e; */
-  background-color: #f3eac8;
-}
-
 .main{
   position: relative;
   left: 8%;
@@ -434,7 +396,10 @@ header h2{
 }
 
 
-
+/*Slider*/
+/*I learned concept of slider bar and applyed what I learned from "https://www.w3schools.com/w3css/w3css_slideshow.asp"*/
+/*I learned concept of slider bar and applyed what I learned and used somde code from "https://codepen.io/anna_blok/details/eYYRbQY"*/
+/*I learned concept of slider bar and applyed what I learned and used somde code from https://www.withoutjs.com/articles/slider/"*/
 .bestseller{
 	padding-top: 3rem;
 	position: relative;
@@ -840,6 +805,24 @@ figcaption{
 /* for drop down */
 
 /* footer */
+
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-top: 7rem;
+}
+
+footer{
+	display: span;
+	/* background-color: #beab681e; */
+	background-color: #f3eac8;
+  }
+  
 .icon{
 	margin: 1rem;
 	margin-top: 0;
@@ -906,6 +889,10 @@ figcaption{
 	z-index: 1;
 }
 
+
+/* Location: I used some that are not mine */
+/*I learned concept of google map location and applyed what I learned from "https://developers.google.com/maps/documentation/javascript/adding-a-google-map"*/
+/*I learned concept of google map location and applyed what I learned and used somde code from "https://www.w3schools.com/graphics/google_maps_intro.asp"*/
 
 
 .contact-locationtext{
