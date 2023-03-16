@@ -325,6 +325,14 @@ span.price {
 		max-width: 8rem;
 	}
 
+	.payment{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row-reverse;
+		justify-content: space-between; 
+		align-items: flex-start;
+	}
+
 }
 
 .menu ul{
@@ -692,6 +700,29 @@ figcaption{
   margin: 2rem;
 }
 
+
+#fname, #email, #adr, #city, #province, #zip{
+	border-width: 5px;
+	border-style: double;
+	border-color: rgb(216, 230, 214);
+	border-radius: 3px;
+}
+
+#cname, #ccnum, #expmonth, #expyear, #cvv{
+	border-width: 5px;
+	border-style: double;
+	border-color: rgb(216, 230, 214);
+	border-radius: 3px;
+}
+
+#fname:focus, #email:focus, #adr:focus, #city:focus, #province:focus, #zip:focus{
+	border-color:  white;
+}
+
+#cname:focus, #ccnum:focus, #expmonth:focus, #expyear:focus, #cvv:focus{
+	border-color:  white;
+}
+
 .check-out-item-container{
   padding: 1rem;
 }
@@ -713,7 +744,7 @@ figcaption{
 }
 
 .col-75{
-  margin-top: 3rem;
+	margin-top:1rem ;
 }
 
 .check-out-item-text{
@@ -1009,3 +1040,6 @@ figcaption{
 
 }
 
+.payment{
+	margin: 5rem 2rem;
+}
