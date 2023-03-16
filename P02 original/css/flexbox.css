@@ -31,7 +31,7 @@
 
 @media (min-width: 56rem) {
   .grid.two-column3 {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
