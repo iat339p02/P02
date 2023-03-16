@@ -33,7 +33,7 @@
 
 @media (min-width: 56rem) {
   .grid.two-column3 {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -85,6 +85,8 @@
     padding: 5px 20px 15px 20px;
     border-radius: 3px;
   }
+
+  
 
   .pay{
     border-width: 5px;
