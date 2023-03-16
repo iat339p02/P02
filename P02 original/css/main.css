@@ -1032,3 +1032,11 @@ footer{
 .about-text{
 	text-align: center;
 }
+
+.checkout_btn{
+	text-decoration: none;
+}
+
+.same{
+	margin-bottom: 1rem;
+}
