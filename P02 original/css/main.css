@@ -9,7 +9,7 @@
 .landingimage {
 	padding-top: 35rem;
 	max-width: 100%;
-	background-image: url(file:///Users/elainelee/Documents/IAT339/P02/P02%20original/img/landing.jpg);
+	background-image: url(https://fashionmagazine.com/wp-content/uploads/2021/07/IndigenousDesignersAccessories-feature.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -479,10 +479,6 @@ footer{
 	max-width: 20rem;
 }
 
-  
-  .bestsellerbutton .btn:hover, .btn:active, .btn:focus{
-	color: #C1A57B;
-  }
 
 
 .slide{
